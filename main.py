@@ -4,10 +4,6 @@ import re
 import random
 
 
-def foo():
-    pass
-
-
 class UserDataGenerator:
     def __init__(self):  # C++ konstruktor inicjalizujący
         self.user_data = []

@@ -21,6 +21,10 @@ class UserDataGeneratorTest(unittest.TestCase):
         sample_data = UserDataGenerator().generate_data(number_of_users=1)
         self.assertIsInstance(sample_data, list)
 
+    def test_if_user_data_is_returned_as_correct_instance(self):
+        sample_data = UserDataGenerator().generate_data(number_of_users=1)
+        self.assertIsInstance(sample_data[0], dict)
+
 
 if __name__ == '__main__':
     unittest.main()
