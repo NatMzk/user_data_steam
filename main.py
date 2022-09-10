@@ -3,6 +3,9 @@ import names
 import re
 import random
 
+"""
+test
+"""
 
 class UserDataGenerator:
     def __init__(self):  # C++ konstruktor inicjalizujący
